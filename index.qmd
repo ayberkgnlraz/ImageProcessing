@@ -1,0 +1,39 @@
+---
+title: "Team Quant Flare"
+sidebar: false 
+---
+
+This is our project webpage.
+
+Please stay tuned to follow our project activities.
+
+# Team Members
+
+1.  [Ayberk Gönülrazı](https://emu-hacettepe-analytics.github.io/emu430-fall2023-ayberkgnlraz/)
+
+2.  [Ayşıl Mutlu](https://emu-hacettepe-analytics.github.io/emu430-fall2023-aysilmutlu/)
+
+3.  [Ulaş Sarp Koçak](https://emu-hacettepe-analytics.github.io/emu430-fall2023-ulassarpkocak/)
+
+4.  [Zeynep Ayşe Özçelik](https://emu-hacettepe-analytics.github.io/emu430-fall2023-zeynepaozcelik/)
+
+# Project Topic
+
+The data set we consider in this study includes the population growth rate in Turkey and the number of foreign babies by year.
+
+The main sources of the data set include the Turkish Statistical Institute (TURKSTAT) and other official demographic data. data providers. These sources conduct extensive field surveys and censuses to provide reliable and up-to-date information. In this way, we ensure the reliability and accuracy of the basic data on which our study is based.
+
+We chose this data set because we aim to better understand the changes in Turkey's population structure and the reasons for these changes. Population growth rate and foreign baby numbers are important indicators for assessing a country's demographic development and predicting future demographic trends. Analyzes to be made on this data set will help us understand the age distribution of the population, migration movements and relationships with socioeconomic factors.
+
+The main goal of this study is to understand the changes in Turkey's population structure in depth, to determine the potential impacts of these changes on society and to predict future demographic trends.[1]
+
+
+# Data Set
+
+We received the data we will discuss in this project from TÜİK. You can access the resources from [here](https://data.tuik.gov.tr/Kategori/GetKategori?p=Population-and-Demography-109) and [here](https://biruni.tuik.gov.tr/medas/?kn=206&locale=en).
+
+# Teaser
+
+You can reach from [link](https://drive.google.com/file/d/1J9-cApJi2JL4ZBp-VU6tVV0uirKchB8y/view)
+
+[1]We got help from QuillBot's Paraphraser and Grammar Checker tools to use more effective phrases in the texts we prepared.

@@ -1,0 +1,29 @@
+---
+title: "Edge Detection progress"
+---
+```{r}
+install.packages("magrittr")
+install.packages("EBImage")
+install.packages("imager")
+install.packages("signal")
+library(magrittr)
+library(EBImage)
+library(imager)
+library(signal)
+
+# Pulling image through url
+image_url <- "https://www.tofas.com.tr/_catalogs/masterpage/images/hakkimizda1-2.jpg"
+img <- load.image(image_url)
+
+
+gray_image <- grayscale(img)
+par(mfrow=c(1,3))
+plot(img, main="original image")
+plot(gray_image, main="Grayscale Image")
+
+canny_edges <- cannyEdges(gray_image)
+plot(canny_edges, main="Edge Detecteion")
+
+
+```
+

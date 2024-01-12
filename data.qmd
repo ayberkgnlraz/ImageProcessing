@@ -1,0 +1,15 @@
+---
+title: "Data"
+---
+
+Data source:
+
+<https://biruni.tuik.gov.tr/medas/?kn=206&locale=en>
+
+# What is the information about, and where did it come from?
+
+The "foreign child by year" data set, which we examined, displays the breakdown of foreign children in Turkey's 81 provinces from 2014 to 2022. We obtained this information from the Turkish Statistical Institute's (TUIK) database.
+
+# Why did we choose this data?
+
+We intended to carry out a study to look at the severity of the immigration issue in our nation over time, which began in Turkey approximately ten years ago. We looked at the distribution of the growing number of foreign children in Turkey by years and provinces. Since immigrants have been arriving from various nations (Syria, Afghanistan, Pakistan, etc.) and raising children there, we also looked at how these provinces' demographic structures will likely deteriorate over the next few years. Our goal is to examine this data set and forecast the balance that will develop between Turkish and international students in the upcoming years, as well as the implications and effects on the educational environment in schools.
