@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Team Quant Flare",
+    "title": "Team XXX",
     "section": "",
-    "text": "This is our project webpage.\nPlease stay tuned to follow our project activities.\n\nTeam Members\n\nAyberk Gönülrazı\nAyşıl Mutlu\nUlaş Sarp Koçak\nZeynep Ayşe Özçelik\n\n\n\nProject Topic\nThe data set we consider in this study includes the population growth rate in Turkey and the number of foreign babies by year.\nThe main sources of the data set include the Turkish Statistical Institute (TURKSTAT) and other official demographic data. data providers. These sources conduct extensive field surveys and censuses to provide reliable and up-to-date information. In this way, we ensure the reliability and accuracy of the basic data on which our study is based.\nWe chose this data set because we aim to better understand the changes in Turkey’s population structure and the reasons for these changes. Population growth rate and foreign baby numbers are important indicators for assessing a country’s demographic development and predicting future demographic trends. Analyzes to be made on this data set will help us understand the age distribution of the population, migration movements and relationships with socioeconomic factors.\nThe main goal of this study is to understand the changes in Turkey’s population structure in depth, to determine the potential impacts of these changes on society and to predict future demographic trends.[1]\n\n\nData Set\nWe received the data we will discuss in this project from TÜİK. You can access the resources from here and here.\n\n\nTeaser\nYou can reach from link\n[1]We got help from QuillBot’s Paraphraser and Grammar Checker tools to use more effective phrases in the texts we prepared.\n\n\n\n\n Back to top"
+    "text": "This is our project webpage.\nPlease stay tuned to follow our project activities.\nThis is our template.\n\nTeam Members\n\nEdin_Džeko\nDušan Tadić\nFrederico Rodrigues de Paula Santos\nSebastian Szymański\n\n\n\nProject Topic\n\n\nData Set\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
@@ -18,20 +18,13 @@
     "href": "analysis.html",
     "title": "Analysis",
     "section": "",
-    "text": "First of all, we generated the data that would be useful to us from TURKSTAT’s website. After downloading the data as an Excel file, we changed the positions of the columns and raws, making it easier to work on it. Next, we anchored the rows and columns of the data so that R could read them. Finally, we created column headings for the cities.\n\nLoading necessary libraries :\nLoad the data:"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "data.html",
     "href": "data.html",
     "title": "Data",
     "section": "",
-    "text": "Data source:\nhttps://biruni.tuik.gov.tr/medas/?kn=206&locale=en\n\nWhat is the information about, and where did it come from?\nThe “foreign child by year” data set, which we examined, displays the breakdown of foreign children in Turkey’s 81 provinces from 2014 to 2022. We obtained this information from the Turkish Statistical Institute’s (TUIK) database.\n\n\nWhy did we choose this data?\nWe intended to carry out a study to look at the severity of the immigration issue in our nation over time, which began in Turkey approximately ten years ago. We looked at the distribution of the growing number of foreign children in Turkey by years and provinces. Since immigrants have been arriving from various nations (Syria, Afghanistan, Pakistan, etc.) and raising children there, we also looked at how these provinces’ demographic structures will likely deteriorate over the next few years. Our goal is to examine this data set and forecast the balance that will develop between Turkish and international students in the upcoming years, as well as the implications and effects on the educational environment in schools.\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "analysis.html#visualization-to-see-trends",
-    "href": "analysis.html#visualization-to-see-trends",
-    "title": "Analysis",
-    "section": "Visualization to see trends",
-    "text": "Visualization to see trends\nWe visualized the data set as a line graph. In this way , data visualization of all cities was achieved at once.\n\nShow the code\n# We converted the data to long format for ggplot2\nlibrary(tidyr)\nforeign_child_long &lt;- gather(dataset, key = \"Year\", value = \"Value\", -City)\n\n# Code for Printing the structure and head of the data frame for inspection\nstr(foreign_child_long)\n\ntibble [729 × 3] (S3: tbl_df/tbl/data.frame) $ City : chr [1:729] “Adana” “Adıyaman” “Afyonkarahisar” “Ağrı” … $ Year : chr [1:729] “2014” “2014” “2014” “2014” … $ Value: num [1:729] 2416 57 1027 198 1482 …\n\nShow the code\nhead(foreign_child_long)"
+    "text": "Data source: xxx\n\n\n\n Back to top"
   }
 ]
