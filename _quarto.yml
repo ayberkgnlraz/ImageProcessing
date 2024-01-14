@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Quant Flare's Project Lab"
+  title: "xxx' Project Lab"
   navbar:
     search: true
     left:

@@ -1,6 +1,7 @@
 ---
 title: "Edge Detection progress"
 ---
+
 ```{r}
 install.packages("magrittr")
 install.packages("EBImage")
@@ -26,4 +27,3 @@ plot(canny_edges, main="Edge Detecteion")
 
 
 ```
-
